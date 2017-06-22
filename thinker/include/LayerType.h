@@ -1,0 +1,1 @@
+enum class LayerType{INPUT=1,HIDDEN,OUTPUT};

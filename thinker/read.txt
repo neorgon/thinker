@@ -1,0 +1,43 @@
+bibliography:
+1.- Artificial Intelligence for humans volume3: Deep Learning and Neural networks
+2.- Neural Networks Using c# Succinctly by James McCaffrey
+Pages:
+1.-http://www.flacsoandes.edu.ec/comunicacion/aaa/imagenes/publicaciones/pub_30.pdf pag 88
+2.-http://www.heatonresearch.com/aifh/vol3/xor_batch.html
+3.-https://es.slideshare.net/mentelibre/diseo-de-redes-neuronales-multicapa-y-entrenamiento
+4.-https://es.slideshare.net/mentelibre/redes-neuronales-algoritmos-de-aprendizaje
+5.-https://es.slideshare.net/mentelibre/red-neuronal-backpropagation
+6.-https://es.slideshare.net/mentelibre/red-de-retropropagacin-neuronal
+7.-http://elvex.ugr.es/decsai/computational-intelligence/slides/N220Backpropagation.pdf
+
+for the transition function of a perceptron and neural networks we are based on 
+	Neural Networks Using c#(Page 51) and Artificial Intelligence for humans
+
+for the development of perceptron we are based on Neural Networks Using c#(Page 30)
+
+for calculating the response from the neural network we used "feed forward" based on
+	Neural Networks Using c# Succinctly(Page 49)
+
+to actualize the weights and bias we use "Backpropagation" based on 
+	Neural Networks Using c# Succinctly(Page 70) and Artificial Intelligence for human
+	https://es.slideshare.net/mentelibre/redes-neuronales-algoritmos-de-aprendizaje 
+	https://es.slideshare.net/mentelibre/red-de-retropropagacin-neuronal
+
+For the implementation of the backpropagation in batches we obtained the information of:
+        http://www.flacsoandes.edu.ec/comunicacion/aaa/imagenes/publicaciones/pub_30.pdf: apuntes de inteligencia artificial (pag 88)
+	http://elvex.ugr.es/decsai/computational-intelligence/slides/N220Backpropagation.pdf: backpropagation (pag 36)
+	https://es.slideshare.net/mentelibre/diseo-de-redes-neuronales-multicapa-y-entrenamiento: diseno de redes y entrenamiento (diapositiva 36)
+	red-neuronal-backpropagation
+
+to calculate the error from the neural network we use "Mean Squared Error" based on
+	Neural Networks Using c# Succinctly(Page 107) and Artificial Intelligence for human
+
+for the incremental training from the neural network we are based on
+	Neural Networks Using c# Succinctly(Page 95) and Artificial Intelligence for human
+
+for the batch training from the neural network we are based on
+	http://www.heatonresearch.com/aifh/vol3/xor_batch.html
+	http://matlab.izmiran.ru/help/toolbox/nnet/backpr55.html
+	https://stats.stackexchange.com/questions/153531/what-is-batch-size-in-neural-network
+
+ 		

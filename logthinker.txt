@@ -1,0 +1,660 @@
+commit 7c1cdc82bd09aa9dd49034c0220668ff4023f387
+Merge: 32efe80 15b0b68
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Sat Apr 22 16:50:13 2017 -0400
+
+    Union OptionParser with Master
+
+commit 15b0b6858f1beb4eb4f7a9303a171f336cf32ac2
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Sat Apr 22 16:33:59 2017 -0400
+
+    Nestor, #144096793, Fix error de duplicidad de parametros
+
+commit 5585f35c235148166f61bf845674e22e44fa6ec0
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Fri Apr 21 20:18:26 2017 -0400
+
+    Alejandro #144097839 Add exception -Abbreviation declaration error-
+
+commit 2aa12915872bd53a602f34e16efc4c88062d220b
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Fri Apr 21 16:18:31 2017 -0400
+
+    Alejandro #144097839 Add exception Name declaration error
+
+commit f7001ec5921f165ad47d26b4e917cdaf88c3f6d7
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Fri Apr 21 15:42:49 2017 -0400
+
+    Alejandro #144097839 Add class DefinitionException and Control of repeated names or abbreviations
+
+commit 32efe8055668b780e9cd18e89a73399ca30dfbdd
+Author: julia <julia.escalante@fundacion-jala.org>
+Date:   Fri Apr 21 17:51:06 2017 +0000
+
+    julia escalante #143966305 creacion del objeto json para perceptron
+
+commit 263d6077996fe945baaf3f9c510fffdbbc9d5b53
+Author: julia <julia.escalante@fundacion-jala.org>
+Date:   Fri Apr 21 16:03:14 2017 +0000
+
+    Julia Escalante, Jorge Cochoza #143966305 adding method to create json object of the vectors
+
+commit d8f1c5729a030b09e3985faf8723885571e65d24
+Author: Carlos Barrientos <Carlos.Barrientos@fundacion-jala.org>
+Date:   Fri Apr 21 00:54:29 2017 -0400
+
+    Carlos Barrientos #143048997 Aceptan Test de la clase Option
+
+commit 4805a58861ac273a068f28985f2e7bb6ddceba87
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Thu Apr 20 22:12:02 2017 -0400
+
+    add exception test
+
+commit b98fdc5367959285ff3abda532cfd48efcc58ce8
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Thu Apr 20 21:32:09 2017 -0400
+
+    Alejandro #143915917 Memory released on the OptionParser destructor
+
+commit d0beeac0720dfde874ca4b4b38d028971d5a0914
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Thu Apr 20 21:11:50 2017 -0400
+
+    Alejandro #143916137 add other exception test -Mandatory command not found-
+
+commit 93813adfe57ca7fe20d41983f8caaf57359c7a3a
+Merge: ebdea72 22385d1
+Author: Christian Parraga <christian.parraga@fundacion-jala.org>
+Date:   Thu Apr 20 20:47:44 2017 -0400
+
+    Merge branch 'master' of https://10.28.107.216:8443/r/ThinkerRepository
+
+commit ebdea7288ee321dadd6762a4597cc3667c124519
+Author: Christian Parraga <christian.parraga@fundacion-jala.org>
+Date:   Thu Apr 20 20:47:30 2017 -0400
+
+    Christian ID#143240427 PerceptronLayer created
+
+commit 64dfaf0090450299b24d5749bc973c02b054822d
+Author: julia <julia.escalante@fundacion-jala.org>
+Date:   Thu Apr 20 23:03:11 2017 +0000
+
+    Julia Escalante, Jorge Cochoza #143966037 adding new project converter
+
+commit a10edd02bc265bb452c17d53f0933f3be33c401f
+Author: julia <julia.escalante@fundacion-jala.org>
+Date:   Thu Apr 20 22:57:39 2017 +0000
+
+    Julia Escalante, Jorge Cochoza #143966037 adding json library
+
+commit 7a6ffd4f4cac9845769bf491699db2039bade0dd
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Thu Apr 20 17:03:12 2017 -0400
+
+    Alejandro #143916289 add control Mandatory command and add exception -Mandatory command not found-
+
+commit dd190e064c45996da20af2326d19d11065733582
+Merge: 68df423 9068e98
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Fri Apr 21 10:21:23 2017 -0400
+
+    Merge branch 'OptionParser' of ssh://localhost:29418/ThinkerRepository into OptionParser
+
+commit 68df4230a54df477fe539533bfb69e2602175195
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Fri Apr 21 10:20:15 2017 -0400
+
+    Nestor, #144029375, eliminar la propiedad cardinalidad de la calse OptionDefinition
+
+commit ac5de56095de666318f334b2109e639fa578d7d0
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Thu Apr 20 17:49:33 2017 -0400
+
+    Nestor, #143986433, Refactorizar la clase Analyzer Syntax
+
+commit e6d0c20b623deb21844194d3f75127bf3ef5a201
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Thu Apr 20 17:15:10 2017 -0400
+
+    Nestor, #143986675, eliminar la definicion de tipo lista
+
+commit cd402d3cb068b6b953d47c465380cd470992b123
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Thu Apr 20 20:38:59 2017 +0000
+
+    JhonQuinteros#144060661 added a new constructor for Perceptron class
+
+commit 22385d173d76fe16cc5e59d00ae08e23ac2a1e1b
+Merge: d8d4ad2 bbba221
+Author: Luisma <luis.choque@fundacion-jala.org>
+Date:   Thu Apr 20 19:44:57 2017 +0000
+
+    Merge branch 'master' of https://10.28.107.216:8443/r/ThinkerRepository
+
+commit bbba2211f6d602419dad70ef239f1e84b364f0eb
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Fri Apr 21 00:40:51 2017 -0400
+
+    Jorge Cochoza, Julia Escalante #143966305 adding methods for build json
+
+commit 80694f2c9e809004c15214aca06e7eb1b23fa1d7
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Fri Apr 21 00:39:49 2017 -0400
+
+    Jorge Cochoza, Julia Escalante #143966305 adding method to create .json file
+
+commit 4e18e4f4960238367dcb78ffaa9bbab19dde7f8e
+Merge: 0d70a42 62f56ea
+Author: Ana <ana.medrano@fundacion-jala.org>
+Date:   Thu Apr 20 20:28:28 2017 -0400
+
+    Merge branch 'master' of https://10.28.107.216:8443/r/ThinkerRepository
+
+commit 0d70a420dc3676899737333f86819688fcb50e8b
+Author: Ana <ana.medrano@fundacion-jala.org>
+Date:   Thu Apr 20 20:27:53 2017 -0400
+
+    Ana #143240427 Creacion Layer,#143986403 implementacion transicion softmas y tangente hiperbolica
+
+commit 62f56ea1c715f672790a961ed429c4c0c6943e85
+Merge: 64dfaf0 a6c5b8d
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Fri Apr 21 00:13:13 2017 +0000
+
+    Merge branch 'jhon'
+
+commit a6c5b8da6a4fd08f8584c479a5b0ea9929e37a2a
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Fri Apr 21 00:11:49 2017 +0000
+
+    JhonQUinteros#143240427 created the class OutPutLayer and midified th constructor from the clas Perceptron
+
+commit 53bfec1343e1fb5ad5e036de0aa8b5c3e0647f54
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Thu Apr 20 23:07:34 2017 +0000
+
+    JhonQuinteros#144022095 implemented the method feedforward from neural network
+
+commit d8d4ad291a0b05250995d629c7adb91ff03d5a17
+Merge: 52d5714 4e18e4f
+Author: Luisma <luis.choque@fundacion-jala.org>
+Date:   Thu Apr 20 19:44:46 2017 +0000
+
+    luis choque #143240427 creacion de la clase HiddenLayer #143240465 implementacion del constructor neuralnetwork
+
+commit 52d57141f5742feb01936096495be9c0fe771713
+Author: Luisma <luis.choque@fundacion-jala.org>
+Date:   Thu Apr 20 19:38:32 2017 +0000
+
+    luis choque #143240465 implementacion neuralnetwork #143240427 creacionde la clase hiddenLayer
+
+commit 9068e98a3a383170a3060047b0f05e661b2262b2
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Thu Apr 20 13:27:56 2017 -0400
+
+    Jorge Cochoza Casana #143831745 adding integration test of option parser project
+
+commit 8bd11d5e362b2182b99c60eaec381cfc94001812
+Author: Ana <ana.medrano@fundacion-jala.org>
+Date:   Wed Apr 19 20:21:08 2017 -0400
+
+    Ana Medrano #143986403 Implementacion de la funcion de transicion tangente hiperbolica
+
+commit e17d210d7567d42f2f6f1905431ae766ea662295
+Author: Ana <ana.medrano@fundacion-jala.org>
+Date:   Wed Apr 19 20:08:27 2017 -0400
+
+    Ana #143494305 Modificacion del archivo gitignore
+
+commit e7ce5e2196cfc8ae16a6bf73c4c0d3b2040fe891
+Author: Christian Parraga <christian.parraga@fundacion-jala.org>
+Date:   Wed Apr 19 16:39:36 2017 -0400
+
+    Christian ID#143831849 Test Updated,changed EXCPETED_ANY_THROWto try and catch directed to exeptions
+
+commit 94f1270596fc9fdc1206f1f0457837be621d0936
+Author: Luisma <luis.choque@fundacion-jala.org>
+Date:   Wed Apr 19 18:32:01 2017 +0000
+
+    luis choque flores #143240465 crecion del constructor de NeuralNetwork
+
+commit 2dc4d6ff1e56f48a6038a577b94167117ece2ff2
+Author: Christian Parraga <christian.parraga@fundacion-jala.org>
+Date:   Tue Apr 18 08:44:29 2017 -0400
+
+    Christian ID#143831849 2 Acceptances Test añadidas, total 5
+
+commit 1e5856cb9143fc0d779637144a229d9a9613a712
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Tue Apr 18 08:24:01 2017 -0400
+
+    alejandro #142364087 implementacion final
+
+commit 6f7ae9d368d7bf748811334e2ece4b235f197138
+Author: Christian Parraga <christian.parraga@fundacion-jala.org>
+Date:   Mon Apr 17 20:47:07 2017 -0400
+
+    Christian ID#143831849 Acceptance Tests done for Right values and wrong values (3 tests)
+
+commit 57077b0d2c80a39e367fa41e86f0ba152c4be6db
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Mon Apr 17 16:36:16 2017 -0400
+
+    Jorge Cochoza Casana #143048997 adding reference ATest and UTest in CMakeLists
+
+commit f2a23f8e6d9573ed368285d16da8cb8a66a8bf8f
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Mon Apr 17 16:33:06 2017 -0400
+
+    Jorge Cochoza Casana #143048997 Modified CMakeLists and remove bugs in test project
+
+commit 90e81cd51fe72a32f99ac2fc6079b0259db3ca91
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Mon Apr 17 16:31:15 2017 -0400
+
+    Jorge Cochoza Casana #143048997 Adding Unit test of Option Parser
+
+commit f751cbb4a6ef06b2b56864462afc2f18a8d68ef8
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Mon Apr 17 16:30:41 2017 -0400
+
+    Jorge Cochoza Casana #143048997 Adding Integration test of Option Parser
+
+commit f38a8d900a5106fb801a670f4c2d1c8a144d65ef
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Mon Apr 17 16:30:15 2017 -0400
+
+    Jorge Cochoza Casana #143048997 Adding Aceptance test of Option Parser
+
+commit ac97bd184e83ea4e625fae344366da2307f06530
+Author: Luisma <luis.choque@fundacion-jala.org>
+Date:   Mon Apr 17 17:54:04 2017 +0000
+
+    #143505429: correcion de makelists
+
+commit bd070ff7cbcc4a816ea4e1ef39761c71e7258ec6
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Mon Apr 17 11:48:35 2017 -0400
+
+    Alejandro, #142364087 control semantico en constructores de objetos IOptionsType
+
+commit 2c85e9624ad99423d839044e7730a07bbfeea38b
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Mon Apr 17 21:46:00 2017 -0400
+
+    Nestor, #143578929, Cambiando nombre del metodo y refactorizando
+
+commit 758bfd456678422d7bb77ff336575b6138e7d71c
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Mon Apr 17 21:40:34 2017 -0400
+
+    Nestor, #143578929, Cambiando nombre del metodo y refactorizando
+
+commit 1818d8286d2e830d69b970fe5e94e085ac16c1e7
+Merge: 36457c4 3620d3e
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Mon Apr 17 20:55:48 2017 -0400
+
+    Merge branch 'OptionParser' of ssh://localhost:29418/ThinkerRepository into OptionParser
+
+commit 36457c4368a4682d9316ad720c88e6bcbc594f76
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Mon Apr 17 20:55:06 2017 -0400
+
+    ultimos cambios sin semantica
+
+commit b0699305eab6dd748ff0e343ed0d4f74f166d3c3
+Author: Luisma <luis.choque@fundacion-jala.org>
+Date:   Mon Apr 17 15:22:47 2017 +0000
+
+    id:143505429 creacion de archivos cmake que se ejecutan individualmente con su propio cmake y que se ejecutan con un archivo global
+
+commit 0a92c7ed1d5179b4139bc07b28680e9881a2f34f
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Fri Apr 14 02:49:00 2017 -0400
+
+    last fixes
+
+commit 0d0167f8dadb7bcac03f494f165a731f3da9b16f
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Thu Apr 13 23:50:57 2017 -0400
+
+    fix analyzer sintax
+
+commit 3620d3e49189c9664f1bc835bd3f22c9887e3799
+Merge: e6768b7 0a92c7e
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Thu Apr 13 16:24:11 2017 -0400
+
+    add support for the other types
+
+commit e6768b75976b39048f5c09721b70ab9a4286b83f
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Thu Apr 13 16:08:28 2017 -0400
+
+    add methods
+
+commit 05ea9243c01f661fcbcd338d8990332c728f501e
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Thu Apr 13 11:11:46 2017 -0400
+
+    add class inherited List
+
+commit a471244a418617e3e92976cc87499e94f396f2d2
+Author: Christian Parraga <christian.parraga@fundacion-jala.org>
+Date:   Thu Apr 13 10:14:51 2017 -0400
+
+    Firmas de metodos con nombre Semantic y Syntax
+
+commit 01a777abd821262a90600522520f66e42460f399
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Thu Apr 13 09:29:05 2017 -0400
+
+    delete wrong and unused classes
+
+commit eed02d2672dd9be73a9d3da4be46c5018f788d2a
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Thu Apr 13 21:15:29 2017 -0400
+
+    delete Parser and scanner
+
+commit 6920e764717b6de99b21f521bab5bdaca1b77dd6
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Thu Apr 13 20:59:10 2017 -0400
+
+    Create new folder, add new class
+
+commit fe3228b34f3e47bb29af51dfc1f0fb5908cf8ff3
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Wed Apr 12 17:19:01 2017 -0400
+
+    add IOptionType and inherited classes
+
+commit 25455e70775ba06aa0c7299fbbe4cf73d57efc36
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Tue Apr 11 10:20:32 2017 -0400
+
+    cmakelist
+
+commit ba5c9bd582714cb55e8bed1ee6f99e8bfe0b0dd9
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Tue Apr 11 10:16:56 2017 -0400
+
+    Cmakelist update
+
+commit b6d09a6d3d68cdd5069b225611094db3fce76ffa
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Tue Apr 11 12:18:30 2017 -0400
+
+    Change name include in scanner project
+
+commit 3dca7b5202ca640c4865eded3d51ebac35b00a4c
+Merge: 499115f 5868087
+Author: luis <luis.choque@fundacion-jala.org>
+Date:   Mon Apr 10 19:12:20 2017 +0000
+
+    modificacion de perceptron y eliminando test
+
+commit 586808713337f039564036379656fc9990d386f4
+Author: christian <christian.parraga@fundacion-jala.org>
+Date:   Mon Apr 10 18:58:25 2017 -0400
+
+    Tests Updated, Main Test created
+
+commit 499115f90264d20887c64338016adbca4bc2c247
+Author: luis <luis.choque@fundacion-jala.org>
+Date:   Mon Apr 10 19:08:11 2017 +0000
+
+    cmake with googletest por luis y ana
+
+commit 5119b33ff00deac650f2d5737b49f0c206977409
+Merge: 0d9a725 afbf0e6
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Sun Apr 9 00:45:41 2017 +0000
+
+    Merge branch 'master' of https://10.28.107.216:8443/r/ThinkerRepository
+
+commit 0d9a725e10f8d55a3bb2cc7d0ffa92647017a8c4
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Sun Apr 9 00:45:29 2017 +0000
+
+    christian and julia unit test and, or, not and fixed perceptron
+
+commit 7489edc2c6366c1beed79db42dca0e105b833223
+Author: Julia Escalante <escalantejulia80@gmail.com>
+Date:   Sat Apr 8 16:38:55 2017 -0600
+
+    corregiendo error
+
+commit 6f1ec709d495325fd2548855443bcd00a741e61a
+Author: Julia Escalante <escalantejulia80@gmail.com>
+Date:   Sat Apr 8 16:25:23 2017 -0600
+
+    agregando test para Not logico
+
+commit afbf0e65705a14bb010802046706388d69894b10
+Author: luis <luis.choque@fundacion-jala.org>
+Date:   Sat Apr 8 12:26:46 2017 +0000
+
+    creacion de build
+
+commit cc4fc959e0de29609aa31930c769fbee71eddc01
+Author: Julia Escalante <escalantejulia80@gmail.com>
+Date:   Sat Apr 8 16:50:53 2017 -0600
+
+    agregando comentario
+
+commit 10abda676b97f219e6e84b246c765104cde71a7d
+Author: Ana Medrano <Ana.Medrano@fundacion-jala.org>
+Date:   Sat Apr 8 15:44:40 2017 +0000
+
+    Cambios en el CMakeLists
+
+commit 3cdfa180c23dac1b5b5d5e9b4fcfe00a0080a5f5
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Wed Apr 5 15:10:20 2017 +0000
+
+    added googleTest
+
+commit c157544718c510183858d8f59425fabd2e94bd72
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Tue Apr 4 10:21:07 2017 -0400
+
+    Delete scanner.rar
+
+commit 94c1105cadc61ff654444922fb47d192f6c860ce
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Tue Apr 4 11:47:37 2017 -0400
+
+    Adding change in Cmakelist
+
+commit f4ae791048f0079602ca1cfbf6a8a1edc9747811
+Merge: ee304a4 5c93565
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Mon Apr 3 18:57:29 2017 -0400
+
+    arreglando clase main.cpp
+
+commit ee304a471aaab75b5c6741d78df30a0512ae6d0d
+Merge: 1eec89c e5f0617
+Author: Carlos Barrientos <carlosbf18@gmail.com>
+Date:   Mon Apr 3 22:20:36 2017 -0400
+
+    merge branch 'parser'
+    
+    agregado el comando --HELP
+
+commit e5f0617c3ace564f93363dcaf3de347b7ed5a61d
+Author: Carlos Barrientos <carlosbf18@gmail.com>
+Date:   Mon Apr 3 22:18:52 2017 -0400
+
+    Agregado en comando --HELP
+
+commit 5c93565d60af0866dce03ef278ee3288257760f0
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Mon Apr 3 18:46:03 2017 -0400
+
+    integracion de proyecto luis alejandro
+
+commit 1f09433fd4b2dcd5f531384270a5d580cb09d740
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Mon Apr 3 16:59:02 2017 -0400
+
+    Fixed Options.h
+
+commit b4c519527f151d155fc53c6b03caf0923cff338a
+Author: Alejandro Heredia <Alejandro.Heredia@fundacion-jala.org>
+Date:   Mon Apr 3 16:26:06 2017 -0400
+
+    Create headers
+
+commit 1eec89c7389a885732e52637e65352267238992e
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Mon Apr 3 15:51:11 2017 +0000
+
+    fixing devfood22
+
+commit 391f7c91777601d70b1cfe54703bef5321d7f429
+Author: Nestor Otondo <nestor.otondo@fundacion-jala.org>
+Date:   Mon Apr 3 10:29:09 2017 -0400
+
+    Parser Library
+
+commit dd69b6f9ca63e2379f78a1eae793af4f262f94d7
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Mon Apr 3 13:16:27 2017 +0000
+
+    fixed
+
+commit 107f39bcaa08f3c60615ae061eaab21767838fee
+Merge: ddb9dd2 30aba24
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Mon Apr 3 12:41:18 2017 +0000
+
+    Merge branch 'master' of https://10.28.107.216:8443/r/ThinkerRepository
+
+commit 30aba24077a9375570c33b24add90b2be2aad598
+Author: Jorge Cochoza <jorge.cochoza@fundacion-jala.org>
+Date:   Mon Apr 3 12:33:55 2017 -0400
+
+    adding cmakelist
+
+commit ddb9dd29e7e36a71c989c3a56c1db08572549080
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Mon Apr 3 12:41:11 2017 +0000
+
+    fixed
+
+commit 70216b013beb64733609a831cc75d1a5a674c780
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Fri Mar 31 13:20:57 2017 +0000
+
+    fixed perceptron
+
+commit 8a7b7d65a6b0932df4c52c4b6d992bfc1100ae16
+Merge: 5a52ff5 281681a
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Fri Mar 31 13:08:28 2017 +0000
+
+    fixed troubles with the merger betwen master and develop
+
+commit 5a52ff54650eed5a9866a77cab1700899e541265
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Fri Mar 31 12:58:35 2017 +0000
+
+    perceptron can computeOutput
+
+commit 281681a64d472194697f2d691988b9cf64b1f352
+Author: Ubuntu <ubuntu@dev22anme01.novalocal>
+Date:   Fri Mar 31 12:49:30 2017 +0000
+
+    corrections CMakeList.txt in thinker proyect
+
+commit 5e76d71277ff0d813901af4a258c36f82f1b7a43
+Author: Jorge Cochoza <cochozza@gmail.com>
+Date:   Fri Mar 31 12:42:53 2017 -0400
+
+    Correction references
+
+commit cbb89d0e9321b9a004aec4914d1c8f064e11f13d
+Author: Jorge Cochoza <cochozza@gmail.com>
+Date:   Fri Mar 31 12:32:46 2017 -0400
+
+    Adding CMakeLists in Thinker Repository project
+
+commit 75b2c43e77552846752ceedb12efb2121cbdacba
+Author: Jorge Cochoza <cochozza@gmail.com>
+Date:   Fri Mar 31 12:31:03 2017 -0400
+
+    adding CMakeLists.txt in thinker project
+
+commit ebccdd054d780f69cbbbdd8748482c117fc050f8
+Author: Jorge Cochoza <cochozza@gmail.com>
+Date:   Thu Mar 30 12:51:02 2017 -0400
+
+    delete bugs
+
+commit a0641d662c5fa5bfb41ca2c08c115647689564a8
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Tue Mar 28 12:38:17 2017 +0000
+
+    script
+
+commit 0534aa7b23d514ae7359171a68c45e4151734ccd
+Merge: 1d1c35b b7dfa3c
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Tue Mar 28 12:37:15 2017 +0000
+
+    Merge branch 'develop' of https://10.28.107.216:8443/r/ThinkerRepository into develop
+
+commit 1d1c35be9665554105070f0f534bfd27ab59214d
+Author: Jorge Cochoza <cochozza@gmail.com>
+Date:   Tue Mar 28 08:34:42 2017 -0400
+
+    adding files prject thinker
+
+commit b7dfa3c7bb326f9392c3cf22b36a4a439d6987eb
+Merge: d2088d8 72b5c8f
+Author: luis <luis.choque@fundacion-jala.org>
+Date:   Mon Mar 27 21:34:20 2017 +0000
+
+    merge de rama jhon con la rama luis
+
+commit 72b5c8fc9ab4bb7f09ab48bfb91601df456dc010
+Author: Luis Choque <luis.choque@fundacion-jala.org>
+Date:   Mon Mar 27 21:08:09 2017 +0000
+
+    arreglo de clases showFood.cpp y showFood.h
+
+commit 55aa77a0c4aba208329a75799b4f593edc2c4fec
+Author: Jorge Cochoza <cochozza@gmail.com>
+Date:   Mon Mar 27 17:01:25 2017 -0400
+
+    adding new project thirdParty
+
+commit b5ea5446005f0e08ab8825418dc0a09c4562181a
+Author: Jorge Cochoza <cochozza@gmail.com>
+Date:   Mon Mar 27 16:56:30 2017 -0400
+
+    Create thinker project
+
+commit d2088d8abeb1051cf784d2bde2fa97f21eef328e
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Mon Mar 27 20:50:00 2017 +0000
+
+    creacion inicial de las clasesFood, ShowFood y main
+
+commit e9650e3296fff29701cd9f09d2a172a9b0606b7c
+Author: jhon <Jhon.Quinteros@fundacion-jala.org>
+Date:   Mon Mar 27 20:47:57 2017 +0000
+
+    creacion del proyecto DevFood22
+
+commit 7a68bab541c78a1deca17acd09f6f6e0c805828c
+Author: admin <admin@gitblit>
+Date:   Mon Mar 27 16:34:17 2017 -0400
+
+    Initial commit

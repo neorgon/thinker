@@ -1,0 +1,102 @@
+﻿Build started 3/28/2017 10:54:13 PM.
+Project "C:\gtest\googletest\msvc\gtest_unittest.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.. /I..\include /Zi /nologo /W3 /WX- /O1 /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gtest/Debug\gtest_unittest\\" /Fd"gtest/Debug\gtest_unittest\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\test\gtest_unittest.cc
+  gtest_unittest.cc
+C:\gtest\googletest\include\gtest/gtest-printers.h(653): error C2977: 'std::tuple' : too many template arguments
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/gtest-printers.h(661): error C2977: 'std::tuple' : too many template arguments
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4341): error C2977: 'std::tuple' : too many template arguments
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+          C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4573) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>' being compiled
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4341): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4341): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4341): error C2955: 'testing::internal::ParamGeneratorInterface' : use of class template requires template argument list
+          C:\gtest\googletest\include\gtest/internal/gtest-param-util.h(166) : see declaration of 'testing::internal::ParamGeneratorInterface'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4343): error C2977: 'std::tuple' : too many template arguments
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4354): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4354): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4359): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4359): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4366): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+          C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4366) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>::Iterator' being compiled
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4366): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4366): error C2955: 'testing::internal::ParamIteratorInterface' : use of class template requires template argument list
+          C:\gtest\googletest\include\gtest/internal/gtest-param-util.h(93) : see declaration of 'testing::internal::ParamIteratorInterface'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4368): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4368): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4401): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4401): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4443): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4443): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4447): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4447): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4528): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4528): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4580): error C2977: 'std::tuple' : too many template arguments
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+          C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4829) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>' being compiled
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4580): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4580): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4580): error C2955: 'testing::internal::ParamGeneratorInterface' : use of class template requires template argument list
+          C:\gtest\googletest\include\gtest/internal/gtest-param-util.h(166) : see declaration of 'testing::internal::ParamGeneratorInterface'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4582): error C2977: 'std::tuple' : too many template arguments
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4594): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4594): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4599): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4599): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4606): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+          C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4606) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>::Iterator' being compiled
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4606): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4606): error C2955: 'testing::internal::ParamIteratorInterface' : use of class template requires template argument list
+          C:\gtest\googletest\include\gtest/internal/gtest-param-util.h(93) : see declaration of 'testing::internal::ParamIteratorInterface'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4608): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4608): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4644): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4644): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4690): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4690): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4694): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4694): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4780): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(4780): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(5062): error C2977: 'std::tuple' : too many template arguments
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+          C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(5090) : see reference to class template instantiation 'testing::internal::CartesianProductHolder9<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9>' being compiled
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(5062): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(5062): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(5106): error C2977: 'std::tuple' : too many template arguments
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+          C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(5137) : see reference to class template instantiation 'testing::internal::CartesianProductHolder10<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9,Generator10>' being compiled
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(5106): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+C:\gtest\googletest\include\gtest/internal/gtest-param-util-generated.h(5106): error C2955: 'std::tuple' : use of class template requires template argument list
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+Done Building Project "C:\gtest\googletest\msvc\gtest_unittest.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.04

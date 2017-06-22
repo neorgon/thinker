@@ -1,0 +1,48 @@
+Nombre de la clase: 
+-TrafficLight
+Responsabilidad:
+-Verificar la cantidad de vehículos que están en espera.
+-Colocar el siguiene vehículo que llega en la última posición libre de la cola.
+-Mover un vehículo a la siguiente posición vacía de la cola.
+-Mostrar la posición en la cola de un vehículo.
+-Si estoy en estado de paso, sacar tantos vehículos de cola como corresponda las unidades de tiempo.
+Colaborador:
+-Vehicle
+
+
+Nombre de la clase:
+-Vehicle
+Responsabilidad:
+-Obtener una ruta
+-Revisar si puedo pasar al siguiente semáforo
+-Verificar si el semáforo actual es el semáforo destino
+-Mostrar mi ubicación actual
+Colaborador:
+Map
+
+Nombre de la clase:
+-Map
+Responsabilidad:
+-Inicializar semáforos
+-Asignar ruta a un vehículo
+Colaborador:
+
+Nombre de la clase
+-TrafficSimulator
+Responsabilidad:
+-Inicializar vehículos
+Colaborador:
+Vehicle
+TrafficLight
+
+Nombre de la clase
+-WindowsConsole
+Responsabilidad:
+-Mostrar los semáforos creados en el Traffic Simulator
+-Mostrar las colas de autos representados por números entre los semáforos
+-Mostrar los cambios en cada momento de la simulación
+Colaborador:
+TrafficSimulator
+
+
+El simulador debe guardar todos los ciclos (clase ciclo o iteración)

@@ -1,0 +1,60 @@
+Inicializar Traffic Simulator
+
+1. Inicializar Semáforos
+- Cada semáforo debe conocer los sub siguientes dos semáforos, cuando un semáforo está en el límite debe apuntar a null
+2. Inicializar Vehículos
+- Cada vehículo debe conocer su semáforo origen
+- Cada vehículo debe conocer su semáforo destino
+3. Inicializar Rutas
+- Cada vehículo debe conocer la ruta que debe seguir para llegar de su origen a su destino
+
+
+TrafficLight
+
+          null                null
+          ^                   ^
+          |                   |
+        [TF01]--->[TF02]--->[TF03]--->[TF04]--->null
+          ^         |         ^         |
+          |         V         |         V
+null<---[TF05]<---[TF06]<---[TF07]<---[TF08]
+          ^         |         ^         |
+          |         V         |         V
+        [TF09]--->[TF10]--->[TF11]--->[TF12]-->null
+          ^         |         ^         |
+          |         V         |         V
+null<---[TF13]<---[TF14]<---[TF15]<---[TF16]
+                    |                   |
+                    V                   V
+                    null                null
+
+
+          null                      null
+          ^                         ^
+          |                         |
+        [TF(1,1)]--->[TF(1,2)]--->[TF(1,3)]--->[TF(1,4)]--->null
+          ^            |            ^            |
+          |            V            |            V
+null<---[TF(2,1)]<---[TF(2,2)]<---[TF(2,3)]<---[TF(2,4)]
+          ^            |            ^            |
+          |            V            |            V
+        [TF(3,1)]--->[TF(3,2)]--->[TF(3,3)]--->[TF(3,4)]-->null
+          ^            |            ^            |
+          |            V            |            V
+null<---[TF(4,1)]<---[TF(4,2)]<---[TF(4,3)]<---[TF(4,4)]
+                       |                         |
+                       V                         V
+                       null                      null
+
+
+Nodos impares en columnas de sur a norte
+Nodos pares en columnas de norte a sur
+Nodos impares en filas este a oeste
+Nodos pares en filas de oeste a este
+
+[TF(fila, columna)]
+
+
+Vehicle
+Way
+
